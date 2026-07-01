@@ -164,5 +164,50 @@ body {
 .box-3 .author {
     font-weight: bold;
     font-size: 18px;
-    text-align: end;
+}
+
+.box-4 {
+    margin: 80px 120px;
+    padding: 35px 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 6px;
+}
+
+
+.p1 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+.p2 {
+    padding-top: 0px;
+    margin: 0;
+    color: #bcc6db;
+    font-size: 14px;
+}
+
+.box-4 button {
+    color: white;
+    background-color: #3882F6;
+    font-size: 16px;
+    border-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0px 20px;
+
+}
+
+.footer {
+    height: 80px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
